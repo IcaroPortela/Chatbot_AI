@@ -10,7 +10,7 @@ API_KEY = 'put your secret key here!'
 
 import google.generativeai as genai
 
-API_KEY = 'AQ.Ab8RN6LiAYEPy7dywWDNQI7eOOy0Y58vua6_8qdx_va_PSL3xA'
+API_KEY = 'Put yout secret key here!'
 
 # 1. Configura a API (certifique-se de ter a chave configurada no seu ambiente)
 genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
